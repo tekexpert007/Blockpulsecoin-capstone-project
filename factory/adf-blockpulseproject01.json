@@ -1,0 +1,9 @@
+{
+	"name": "adf-blockpulseproject01",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d814bb75-bf37-45ea-967b-975d7152e653",
+		"tenantId": "2d90fce4-4ccd-4d03-98f9-0130680df61e"
+	}
+}
