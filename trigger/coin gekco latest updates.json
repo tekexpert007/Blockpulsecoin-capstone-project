@@ -1,0 +1,25 @@
+{
+	"name": "coin gekco latest updates",
+	"properties": {
+		"description": "latest update from the coin markets",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "blockpulsedatapipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 9,
+				"startTime": "2025-08-17T13:01:00",
+				"timeZone": "W. Central Africa Standard Time"
+			}
+		}
+	}
+}
